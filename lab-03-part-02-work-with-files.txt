@@ -160,8 +160,11 @@ Use tail on the file to show the contents of the end of the file.
 
 Write the command that you used below.  Write the last line of the output below.
 ----------
-
-
+tail pg1232.txt
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
 
 ==========
 19. Using the same file...
@@ -172,7 +175,16 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
+less pg1232.txt
 
+INTRODUCTION
+
+Nicolo Machiavelli was born at Florence on 3rd May 1469. He was the
+second son of Bernardo di Nicolo Machiavelli, a lawyer of some repute,
+and of Bartolommea di Stefano Nelli, his wife. Both parents were members
+of the old Florentine nobility.
+
+more pg1232.txt
 
 
 ==========
