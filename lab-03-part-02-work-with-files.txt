@@ -192,6 +192,7 @@ more pg1232.txt
 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
+Less and more I would use when looking through a file, or perhaps searching for a particular section. Cat I would use to display the whole file, and tail/head I would use to learn the title and credits of the book.
 
 
 
@@ -199,15 +200,22 @@ more pg1232.txt
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
 
+wc books/other/pg1232.txt
+5063   52639  305864 books/other/pg1232.txt
 
+There are 52,639 words in the text file
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
+wc books/other/pg1232.txt
+5063   52639  305864 books/other/pg1232.txt
 
+There are 5,063 lines in the text file
 
 ==========
 23.  Make sure you're in the books/other folder.  Copy all of the txt files from that folder to your home directory using wildcard matching.
 
 Write the command that you used below.
 ----------
+cp *.txt ~
