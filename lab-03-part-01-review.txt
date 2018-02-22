@@ -357,15 +357,213 @@ ent-v314-015:science-fiction student$ pwd
 
 Write the command(s) that you used to do this below:
 ----------
-
+cd ../..
 ==========
 14. Find out what the most recently modified directory is in mtec1003 (there are only 3 to choose from)?  How would you find this out?  Hint: perhaps using something to show the modified date... and sort it by time.
 
 Write the command(s) that you used to do this below:
 ----------
+ls -lat
+total 32
+drwxr-xr-x    6 student  staff    204 Feb 20 15:03 .
+drwxr-xr-x+  53 student  staff   1802 Feb 20 15:03 ..
+drwxr-xr-x  129 student  staff   4386 Feb 20 15:03 logs
+-rw-r--r--@   1 student  staff  12292 Feb 13  2013 .DS_Store
+drwxr-xr-x    4 student  staff    136 Feb 13  2013 books
+drwxr-xr-x    6 student  staff    204 Feb 13  2013 web
 
 ==========
 15. Create a compressed archive of the logs folder - that is... take the contents of logs and create a single archive (.tar), and compress (.gz)
 
 Write the command(s) that you used to do this below:
 ----------
+tar -cvf logs.tar.gz logs
+
+a logs
+a logs/.DS_Store
+a logs/access-0.log
+a logs/access-1.log
+a logs/access-10.log
+a logs/access-11.log
+a logs/access-111.log
+a logs/access-112.log
+a logs/access-113.log
+a logs/access-114.log
+a logs/access-115.log
+a logs/access-12.log
+a logs/access-122.log
+a logs/access-13.log
+a logs/access-14.log
+a logs/access-15.log
+a logs/access-150.log
+a logs/access-151.log
+a logs/access-152.log
+a logs/access-158.log
+a logs/access-159.log
+a logs/access-16.log
+a logs/access-160.log
+a logs/access-161.log
+a logs/access-162.log
+a logs/access-163.log
+a logs/access-164.log
+a logs/access-166.log
+a logs/access-167.log
+a logs/access-168.log
+a logs/access-17.log
+a logs/access-170.log
+a logs/access-172.log
+a logs/access-174.log
+a logs/access-175.log
+a logs/access-176.log
+a logs/access-177.log
+a logs/access-178.log
+a logs/access-179.log
+a logs/access-18.log
+a logs/access-180.log
+a logs/access-182.log
+a logs/access-183.log
+a logs/access-186.log
+a logs/access-187.log
+a logs/access-189.log
+a logs/access-19.log
+a logs/access-191.log
+a logs/access-192.log
+a logs/access-2.log
+a logs/access-20.log
+a logs/access-204.log
+a logs/access-205.log
+a logs/access-207.log
+a logs/access-208.log
+a logs/access-209.log
+a logs/access-21.log
+a logs/access-210.log
+a logs/access-211.log
+a logs/access-213.log
+a logs/access-22.log
+a logs/access-23.log
+a logs/access-24.log
+a logs/access-25.log
+a logs/access-251.log
+a logs/access-252.log
+a logs/access-253.log
+a logs/access-254.log
+a logs/access-255.log
+a logs/access-256.log
+a logs/access-257.log
+a logs/access-258.log
+a logs/access-26.log
+a logs/access-27.log
+a logs/access-28.log
+a logs/access-29.log
+a logs/access-3.log
+a logs/access-30.log
+a logs/access-31.log
+a logs/access-32.log
+a logs/access-33.log
+a logs/access-34.log
+a logs/access-35.log
+a logs/access-36.log
+a logs/access-37.log
+a logs/access-38.log
+a logs/access-39.log
+a logs/access-4.log
+a logs/access-40.log
+a logs/access-41.log
+a logs/access-42.log
+a logs/access-43.log
+a logs/access-44.log
+a logs/access-45.log
+a logs/access-46.log
+a logs/access-47.log
+a logs/access-48.log
+a logs/access-49.log
+a logs/access-5.log
+a logs/access-50.log
+a logs/access-52.log
+a logs/access-53.log
+a logs/access-56.log
+a logs/access-57.log
+a logs/access-58.log
+a logs/access-6.log
+a logs/access-60.log
+a logs/access-62.log
+a logs/access-63.log
+a logs/access-65.log
+a logs/access-68.log
+a logs/access-69.log
+a logs/access-7.log
+a logs/access-70.log
+a logs/access-72.log
+a logs/access-73.log
+a logs/access-74.log
+a logs/access-76.log
+a logs/access-78.log
+a logs/access-8.log
+a logs/access-81.log
+a logs/access-83.log
+a logs/access-89.log
+a logs/access-9.log
+a logs/access-90.log
+a logs/access-91.log
+a logs/access-93.log
+a logs/archived
+a logs/archived/access-100.log
+a logs/archived/access-101.log
+a logs/archived/access-102.log
+a logs/archived/access-104.log
+a logs/archived/access-105.log
+a logs/archived/access-106.log
+a logs/archived/access-107.log
+a logs/archived/access-108.log
+a logs/archived/access-109.log
+a logs/archived/access-110.log
+a logs/archived/access-116.log
+a logs/archived/access-117.log
+a logs/archived/access-118.log
+a logs/archived/access-119.log
+a logs/archived/access-120.log
+a logs/archived/access-121.log
+a logs/archived/access-153.log
+a logs/archived/access-154.log
+a logs/archived/access-155.log
+a logs/archived/access-156.log
+a logs/archived/access-157.log
+a logs/archived/access-165.log
+a logs/archived/access-171.log
+a logs/archived/access-173.log
+a logs/archived/access-181.log
+a logs/archived/access-184.log
+a logs/archived/access-185.log
+a logs/archived/access-188.log
+a logs/archived/access-190.log
+a logs/archived/access-193.log
+a logs/archived/access-194.log
+a logs/archived/access-195.log
+a logs/archived/access-196.log
+a logs/archived/access-197.log
+a logs/archived/access-198.log
+a logs/archived/access-199.log
+a logs/archived/access-200.log
+a logs/archived/access-201.log
+a logs/archived/access-203.log
+a logs/archived/access-206.log
+a logs/archived/access-212.log
+a logs/archived/access-214.log
+a logs/archived/access-215.log
+a logs/archived/access-54.log
+a logs/archived/access-55.log
+a logs/archived/access-59.log
+a logs/archived/access-64.log
+a logs/archived/access-71.log
+a logs/archived/access-75.log
+a logs/archived/access-77.log
+a logs/archived/access-79.log
+a logs/archived/access-80.log
+a logs/archived/access-82.log
+a logs/archived/access-84.log
+a logs/archived/access-92.log
+a logs/archived/access-94.log
+a logs/archived/access-95.log
+a logs/archived/access-97.log
+a logs/archived/access-98.log
+a logs/archived/access-99.log
