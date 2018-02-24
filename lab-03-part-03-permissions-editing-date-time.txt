@@ -59,7 +59,7 @@ mkdir copy_to_backup.sh.
 
 What command did you use to find the permissions?
 ----------
-
+ls -l copy_to_backup.sh.
 
 
 ==========
@@ -67,6 +67,7 @@ What command did you use to find the permissions?
 
 What commands did you use to do this?  What was the output?
 ----------
+ls -x copy_to_backup.sh.
 
 
 
@@ -85,7 +86,7 @@ What command did you use to try to execute the file?  What happens?
 
 What command did you use to do this?
 ----------
-
+nano copy_to_backup.sh
 
 
 ==========
